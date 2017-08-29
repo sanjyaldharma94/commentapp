@@ -16,4 +16,8 @@ function display() {
 	newListItem.appendChild(newUserName)
 	newListItem.appendChild(message)
 	document.getElementById("commentList").appendChild(newListItem)
+/*function clear() {
+	var remove = document.getElementById("commentList");
+	remove.remove(remove.text);
+}*/
 }
