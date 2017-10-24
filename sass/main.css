@@ -1,0 +1,17 @@
+body {
+  text-align: center; }
+
+#heading {
+  text-align: center; }
+  #heading h1 {
+    text-align: center;
+    color: tomato;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 600; }
+  #heading input, #heading textarea, #heading button {
+    display: block;
+    text-align: center;
+    vertical-align: top; }
+
+/*# sourceMappingURL=main.css.map */
