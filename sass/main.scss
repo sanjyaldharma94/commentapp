@@ -1,7 +1,12 @@
 body{
 	text-align: center;
+	background-color: #ebebeb;
 }
 #heading{
+	height: 300px;
+	width: 80%;
+	margin: 80px;
+	
 	text-align: center;
 	h1{
 	text-align: center;
@@ -10,9 +15,42 @@ body{
 	font-style: italic;
 	font-weight: 600;
 }
- input, textarea, button{
- 	display: block;
- 	text-align: center;
- 	vertical-align: top;
- }
+.form-group{
+	text-align: center;
+	margin: 10px 150px;
+
+input, textarea, button{
+	display: block;
+	margin: 15px;
+	border: 1px solid black;
+	border-radius: 5px;
+	text-align: center;
+
+     }
+     input{
+     	background-color: #152642;
+     	padding: 25px 0;
+     	color: white;
+     	font-size: 20px;
+     }
+     textarea{
+     	background-color: #152642;
+     	padding:30px 0;
+     	color: white;
+     	font-size: 20px;
+     }
+     button{
+     	float: right;
+     }
+   }
+}
+#results {
+	
+	text-align: center;
+	padding: 20px;
+	margin: 40px 240px;
+     	font-size: 20px;
+	#clear{
+		float: right;
+	}
 }
