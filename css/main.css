@@ -1,0 +1,46 @@
+body {
+  text-align: center;
+  background-color: #ebebeb; }
+
+#heading {
+  height: 300px;
+  width: 80%;
+  margin: 80px;
+  text-align: center; }
+  #heading h1 {
+    text-align: center;
+    color: tomato;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 600; }
+  #heading .form-group {
+    text-align: center;
+    margin: 10px 150px; }
+    #heading .form-group input, #heading .form-group textarea, #heading .form-group button {
+      display: block;
+      margin: 15px;
+      border: 1px solid black;
+      border-radius: 5px;
+      text-align: center; }
+    #heading .form-group input {
+      background-color: #152642;
+      padding: 25px 0;
+      color: white;
+      font-size: 20px; }
+    #heading .form-group textarea {
+      background-color: #152642;
+      padding: 30px 0;
+      color: white;
+      font-size: 20px; }
+    #heading .form-group button {
+      float: right; }
+
+#results {
+  text-align: center;
+  padding: 20px;
+  margin: 40px 240px;
+  font-size: 20px; }
+  #results #clear {
+    float: right; }
+
+/*# sourceMappingURL=main.css.map */
