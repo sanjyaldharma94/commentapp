@@ -35,10 +35,13 @@ clearBtn.addEventListener('click', clearBtnFunction, false);
 if(userInput == "" && userComment == "") {
 	alert("Please type your name");
 	document.getElementById("results").appendChild("");
+
+	return;
 }
-function clearBtnFunction() {
+
+/*function clearBtnFunction() {
 console.log("this button function ran!");
-};
+};*/
  function clearBtnFunction() {
  	alert("Do you want to permanently delete the comments?");
  	document.getElementById("results").removeChild(newListItem);
